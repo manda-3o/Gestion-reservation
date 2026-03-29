@@ -1,0 +1,37 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+         version="3.1">
+
+    <servlet>
+        <servlet-name>ReservationServlet</servlet-name>
+        <servlet-class>com.transportation.servlet.ReservationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReservationServlet</servlet-name>
+        <url-pattern>/reservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PdfReceiptServlet</servlet-name>
+        <servlet-class>com.transportation.servlet.PdfReceiptServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PdfReceiptServlet</servlet-name>
+        <url-pattern>/recu-pdf</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PlaceServlet</servlet-name>
+        <servlet-class>com.transportation.servlet.PlaceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PlaceServlet</servlet-name>
+        <url-pattern>/places-disponibles</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

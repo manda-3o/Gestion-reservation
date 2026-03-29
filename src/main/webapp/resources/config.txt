@@ -1,0 +1,8 @@
+# CSS
+# placez votre fichier CSS ici :
+# d:\JSP\transportation-reservation-app\src\main\webapp\resources\css\style.css
+
+# Librairies JAR à placer dans le dossier WEB-INF/lib :
+# d:\JSP\transportation-reservation-app\src\main\webapp\WEB-INF\lib\mysql-connector-java-x.x.x.jar
+# d:\JSP\transportation-reservation-app\src\main\webapp\WEB-INF\lib\itextpdf-x.x.x.jar
+# d:\JSP\transportation-reservation-app\src\main\webapp\WEB-INF\lib\gson-x.x.x.jar (pour ajax JSON)
